@@ -52,8 +52,8 @@ const FormSubTitle = styled(motion.p)`
 function App() {
   const [category, setCategory] = useState("");
   const [items, setItems] = useState([]);
-  const foodItems = ["Eba", "Mega pot lover", "Hollandia yogurt", "Beans"];
-  const drinkItems = ["Monster energy drink"];
+  const foodItems = ["Eba", "Mega pot lover",  "Beans"];
+  const drinkItems = ["Monster energy drink", "Hollandia yogurt"];
 
   function handleCategoryChange(e) {
     setCategory(e.target.value);
